@@ -7,7 +7,14 @@
  * http://www.tdg-seville.info/License.html
  * 
  */
- 
+ body{
+ background-color: Floral White;
+ ont-family: Courier New;
+ }
+ h1{
+ background-color: gold;
+	color: blueviolet;
+}
 table {
 	border: 1px solid #666;
 	width: 80%;
