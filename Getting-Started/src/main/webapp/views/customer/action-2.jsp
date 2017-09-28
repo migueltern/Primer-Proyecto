@@ -25,7 +25,7 @@
 	%>
 	<ul>
 	<% 	
-	for(x=0;x<11;x++){
+	for(x=0;x<10;x++){
 		res1= Math.random()*(10-100)+100;
 		res= Math.random()*(10-100)+100;
 		%>
