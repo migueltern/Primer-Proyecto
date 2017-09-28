@@ -17,3 +17,16 @@
 <%@taglib prefix="display" uri="http://displaytag.sf.net"%>
 
 <p><spring:message code="customer.action.1" /></p>
+
+<%! 
+	int x;
+	double res=0;
+	%>
+	<ul>
+	<% 	
+	for(x=0;x<11;x++){
+		res= Math.sin(x);
+		%>
+		<li><% out.println(res); %></li>
+<%} %>
+</ul>
