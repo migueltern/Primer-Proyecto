@@ -18,4 +18,18 @@
 
 <p><spring:message code="customer.action.2" /></p>
 
+<%! 
+	int x;
+	double res=0;
+	double res1=0;
+	%>
+	<ul>
+	<% 	
+	for(x=0;x<11;x++){
+		res1= Math.random()*(10-100)+100;
+		res= Math.random()*(10-100)+100;
+		%>
+		<li><% out.println("("+res+", "+res1+")"); %></li>
+<%} %>
+</ul>
 
