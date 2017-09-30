@@ -17,3 +17,15 @@
 <%@taglib prefix="display" uri="http://displaytag.sf.net"%>
 
 <p><spring:message code="administrator.action.2" /></p>
+
+<p><spring:message code="quote.action.2" /></p>
+<p><spring:message code="quote1.action.2" /></p>
+<p><spring:message code="quote2.action.2" /></p>
+<p><spring:message code="quote3.action.2" /></p>
+<p><spring:message code="quote4.action.2" /></p>
+<p><spring:message code="quote5.action.2" /></p>
+<p><spring:message code="quote6.action.2" /></p>
+<p><spring:message code="quote7.action.2" /></p>
+<p><spring:message code="quote8.action.2" /></p>
+<p><spring:message code="quote9.action.2" /></p>
+

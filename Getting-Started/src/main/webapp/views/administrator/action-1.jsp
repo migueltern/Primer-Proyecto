@@ -17,3 +17,26 @@
 <%@taglib prefix="display" uri="http://displaytag.sf.net"%>
 
 <p><spring:message code="administrator.action.1" /></p>
+
+<%
+// el request.getparameter obtiene el valor 
+double variablex= 5.6;
+double variabley= 3.4;
+//varx= Double.parseDouble(request.getParameter("x"));
+//vary= Double.parseDouble(request.getParameter("y"));
+
+
+if(request.getParameter("x")!=null){
+	variablex= Double.parseDouble(request.getParameter("x"));
+	
+	
+	
+}
+if(request.getParameter("y")!=null){
+	variabley= Double.parseDouble(request.getParameter("y"));
+}
+
+out.print(variablex + " + " + variabley + " = ");
+out.print(variablex+variabley);
+%>
+
