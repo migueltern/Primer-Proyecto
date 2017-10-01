@@ -17,3 +17,17 @@
 <%@taglib prefix="display" uri="http://displaytag.sf.net"%>
 
 <p><spring:message code="profile.action.2" /></p>
+
+<%String dato= "";
+if(request.getParameter("count")!=null){
+	dato=request.getParameter("count");
+	Integer numero= Integer.parseInt(dato);
+	out.println("0");
+	for(Integer i=1;i<=numero;i++){
+		
+		out.println(","+i);
+	}
+}
+
+
+%>
