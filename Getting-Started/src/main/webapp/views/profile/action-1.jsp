@@ -17,3 +17,7 @@
 <%@taglib prefix="display" uri="http://displaytag.sf.net"%>
 
 <p><spring:message code="profile.action.1" /></p>
+
+<ul><li><a href="http://www.us.es"><spring:message code="profile.action.1.enlace.portal"/></a></li>
+<li><a href="http://www.lsi.us.es"><spring:message code="profile.action.1.enlace.departamento"/></a>
+</ul>
